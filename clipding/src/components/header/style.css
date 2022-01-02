@@ -1,0 +1,54 @@
+:root {
+	--header-height: 60px
+}
+
+.header {
+	position: fixed;
+	left: 10%;
+	top: 0;
+	width: 80%;
+	height: var(--header-height);
+	padding: 0;
+	background: rgb(100,65,165);
+	background: linear-gradient(0deg, rgba(100,65,165,1) 0%, rgba(126,90,191,1) 100%, rgba(163,124,236,1) 100%); 
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+	z-index: 50;
+}
+
+.header h1 {
+	padding-left: 10%;
+	float: left;
+	margin: 0;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: var(--header-height);
+	font-weight: 400;
+	color: #FFF;
+}
+
+.header nav {
+	padding-left: 25%;
+	font-size: 18px;
+}
+
+.header nav a {
+	display: inline-block;
+	height: var(--header-height);
+	line-height: var(--header-height);
+	padding: 0 15px;
+	min-width: 50px;
+	text-align: center;
+	background: rgba(255,255,255,0);
+	text-decoration: none;
+	color: #FFF;
+	will-change: background-color;
+}
+
+.header nav a:hover,
+.header nav a:active {
+	background: rgba(0,0,0,0.1);
+}
+
+.header nav a.active {
+	background: rgba(0,0,0,0.2);
+}

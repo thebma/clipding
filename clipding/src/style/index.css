@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "Catamaran";
+	src: url("../assets/fonts/Catamaran.ttf");
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #e7e6e6;
+	font-family: 'Catamaran', arial, sans-serif;
+	font-weight: 400;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#app {
+	width: 80%;
+	padding: 0;
+	margin: auto;
+	background-color:#e7e7e7;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+	height: 100%;
+}
